@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- tailwind stylesheet -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-4xl text-center font-medium my-10">Please Login!!!</h1>
+    </header>
+
+    <main>
+        <div class="block my-3 w-2/3 lg:w-2/6 mx-auto">
+            <labe for=""> Your Name
+                <input class="p-3 border border-lime-700 rounded block w-full mt-2" placeholder="Enter your name (any)"
+                    type="text" name="" id="input-name">
+            </labe>
+            <label for=""> Your Email
+                <input class="p-3 border border-lime-700 rounded block w-full mt-2"
+                    placeholder="Enter your email (includes @ and ends with .com)" type="text" name="" id="input-email">
+            </label>
+            <label for=""> Your Password
+                <input class="p-3 border border-lime-700 rounded block w-full mt-2"
+                    placeholder="Enter your password (any)" type="text" name="" id="input-password">
+            </label>
+
+            <button onclick="login()" class="bg-blue-500 p-3 rounded w-full mt-5 font-medium">Login</button>
+        </div>
+    </main>
+
+    <!-- js -->
+    <script src="js/login-utilities.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
